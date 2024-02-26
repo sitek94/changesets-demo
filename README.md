@@ -16,4 +16,5 @@ This project was created using `bun init` in bun v1.0.29. [Bun](https://bun.sh) 
 
 ## Features
 
-- [x] Feature 1
+- feat 1
+- feat 2
