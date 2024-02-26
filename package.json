@@ -4,6 +4,7 @@
   "module": "index.ts",
   "private": true,
   "type": "module",
+  "author": "Maciek Sitkowski",
   "scripts": {
     "build": "tsc",
     "changeset": "changeset",
