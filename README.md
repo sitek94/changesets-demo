@@ -19,3 +19,7 @@ This project was created using `bun init` in bun v1.0.29. [Bun](https://bun.sh) 
 - feat 1
 - feat 2
 - feat 3
+
+## Patches
+
+- patch 1
