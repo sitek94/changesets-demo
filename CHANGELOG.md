@@ -1,5 +1,11 @@
 # changesets-demo
 
+## 4.0.1
+
+### Patch Changes
+
+- add fake patch ([`52468a6416997c200528bb8e41c07c526318d107`](https://github.com/sitek94/changesets-demo/commit/52468a6416997c200528bb8e41c07c526318d107))
+
 ## 4.0.0
 
 ### Major Changes
