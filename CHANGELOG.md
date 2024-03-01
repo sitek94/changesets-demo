@@ -1,5 +1,11 @@
 # changesets-demo
 
+## 4.0.2
+
+### Patch Changes
+
+- add patch ([`d437ae063151a4c9be62cfc4ac3fe51c2992131a`](https://github.com/sitek94/changesets-demo/commit/d437ae063151a4c9be62cfc4ac3fe51c2992131a))
+
 ## 4.0.1
 
 ### Patch Changes
