@@ -23,6 +23,8 @@ jobs:
         uses: changesets/action@v1
         with:
           title: Release
+          commit: Release
+          setupGitUser: false
           publish: bun run publish
           version: bun run version
         env:
