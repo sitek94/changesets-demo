@@ -1,5 +1,11 @@
 # changesets-demo
 
+## 3.0.1
+
+### Patch Changes
+
+- add fake patch ([`8c80d5edaf1306c697d97423363c9c53c6aa2c53`](https://github.com/sitek94/changesets-demo/commit/8c80d5edaf1306c697d97423363c9c53c6aa2c53))
+
 ## 3.0.0
 
 ### Major Changes
