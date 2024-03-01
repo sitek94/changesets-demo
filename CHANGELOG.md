@@ -1,5 +1,16 @@
 # changesets-demo
 
+## 4.1.0
+
+### Minor Changes
+
+- Add changesets logo 🦋 ([`04aeea8850685071c6c7f5e43e02e80ec5aed002`](https://github.com/sitek94/changesets-demo/commit/04aeea8850685071c6c7f5e43e02e80ec5aed002))
+
+### Patch Changes
+
+- - use release type to trigger deploy ([`f5ac0fc67b86eb909d01165440a7a2c809594cfe`](https://github.com/sitek94/changesets-demo/commit/f5ac0fc67b86eb909d01165440a7a2c809594cfe))
+  - don't setup github-actions user
+
 ## 4.0.2
 
 ### Patch Changes
