@@ -4,7 +4,8 @@
 
 ### Patch Changes
 
-- feature 3 ([`9e59b3516d0c39edfc30d048adf72e366d4fc0b4`](https://github.com/sitek94/changesets-demo/commit/9e59b3516d0c39edfc30d048adf72e366d4fc0b4))
+- feature 3
+  ([`9e59b3516d0c39edfc30d048adf72e366d4fc0b4`](https://github.com/sitek94/changesets-demo/commit/9e59b3516d0c39edfc30d048adf72e366d4fc0b4))
 
 ## 2.0.1
 
