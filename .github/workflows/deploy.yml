@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   release:
-    types: [created]
+    types: [released]
 
 permissions:
   contents: read
