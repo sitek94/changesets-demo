@@ -1,5 +1,11 @@
 # changesets-demo
 
+## 4.0.0
+
+### Major Changes
+
+- add fake major change ([`325e6ca05222671d8acce82c205177249a75c1cc`](https://github.com/sitek94/changesets-demo/commit/325e6ca05222671d8acce82c205177249a75c1cc))
+
 ## 3.0.1
 
 ### Patch Changes
