@@ -2,10 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   release:
-    types: [released]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
 
 jobs:
