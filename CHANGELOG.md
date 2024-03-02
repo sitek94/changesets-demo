@@ -1,5 +1,11 @@
 # changesets-demo
 
+## 4.2.0
+
+### Minor Changes
+
+- Convert Changelog from Markdown to HTML using `marked` and display it as part of the website. ([`70f8e13cbe5743548e16721c236e5421eb3dac42`](https://github.com/sitek94/changesets-demo/commit/70f8e13cbe5743548e16721c236e5421eb3dac42))
+
 ## 4.1.0
 
 ### Minor Changes
