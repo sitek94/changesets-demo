@@ -1,5 +1,14 @@
 # changesets-demo
 
+## 4.2.1
+
+### Patch Changes
+
+- Style horizontal line in the header 💅 ([#11](https://github.com/sitek94/changesets-demo/pull/11))
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores aliquam ipsa ullam in modi eum quos et aspernatur,
+  saepe ex autem eveniet illum magni sed distinctio omnis, placeat voluptatem enim.
+
 ## 4.2.0
 
 ### Minor Changes
