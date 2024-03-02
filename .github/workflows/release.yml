@@ -47,7 +47,7 @@ jobs:
         uses: changesets/action@v1
         with:
           title: 'release v${{ steps.set_version.outputs.NEW_VERSION }}'
-          commit: 'release: v${{ steps.set_version.outputs.NEW_VERSION }}'
+          commit: 'release v${{ steps.set_version.outputs.NEW_VERSION }}'
           setupGitUser: false
           publish: bun run publish
           version: bun run version
