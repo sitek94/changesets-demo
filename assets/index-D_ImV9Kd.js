@@ -1,4 +1,17 @@
-(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const n of t.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&a(n)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function a(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}})();const o="/changesets-demo/typescript.svg",i="/changesets-demo/vite.svg",h="/changesets-demo/bun.svg",l="/changesets-demo/changesets.svg",d="changesets-demo",r="4.2.1",g="index.ts",u="module",p="Maciek Sitkowski",m={"changelog-to-html":"marked -i CHANGELOG.md -o CHANGELOG.html",dev:"bun run changelog-to-html && vite",build:"tsc && bun run changelog-to-html && vite build",preview:"vite preview",changeset:"changeset",version:"changeset version",publish:"changeset publish"},f={"@changesets/changelog-github":"^0.5.0","@changesets/cli":"^2.27.1","@svitejs/changesets-changelog-github-compact":"^1.1.0","@types/bun":"latest","conventional-commits-parser":"^5.0.0",vite:"^5.1.4"},b={typescript:"^5.0.0"},v={marked:"^12.0.0"},y={name:d,version:r,module:g,private:!0,type:u,author:p,scripts:m,devDependencies:f,peerDependencies:b,dependencies:v},k=`<h1>changesets-demo</h1>
+(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const n of t.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&a(n)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function a(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}})();const o="/changesets-demo/typescript.svg",h="/changesets-demo/vite.svg",i="/changesets-demo/bun.svg",l="/changesets-demo/changesets.svg",d="changesets-demo",r="4.2.3",g="index.ts",u="module",m="Maciek Sitkowski",p={"changelog-to-html":"marked -i CHANGELOG.md -o CHANGELOG.html",dev:"bun run changelog-to-html && vite",build:"tsc && bun run changelog-to-html && vite build",preview:"vite preview",changeset:"changeset",version:"changeset version",publish:"changeset publish"},f={"@changesets/changelog-github":"^0.5.0","@changesets/cli":"^2.27.1","@svitejs/changesets-changelog-github-compact":"^1.1.0","@types/bun":"latest","conventional-commits-parser":"^5.0.0",vite:"^5.1.4"},b={typescript:"^5.0.0"},v={marked:"^12.0.0"},y={name:d,version:r,module:g,private:!0,type:u,author:m,scripts:p,devDependencies:f,peerDependencies:b,dependencies:v},k=`<h1>changesets-demo</h1>
+<h2>4.2.3</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>remove temp release.json file (<a href="https://github.com/sitek94/changesets-demo/commit/9f550880b6ab46b058fa7d17d2c3c075c1d2f2cb"><code>9f550880b6ab46b058fa7d17d2c3c075c1d2f2cb</code></a>)</li>
+</ul>
+<h2>4.2.2</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li><p>add dummy file for playing around with changesets (<a href="https://github.com/sitek94/changesets-demo/commit/1804babf2900b3f98c4ccb556f164449608bd673"><code>1804babf2900b3f98c4ccb556f164449608bd673</code></a>)</p>
+</li>
+<li><p>include new version in release pr title and commit message (<a href="https://github.com/sitek94/changesets-demo/commit/7c0553281bfe58bfd8d21d38e8305821f2486c97"><code>7c0553281bfe58bfd8d21d38e8305821f2486c97</code></a>)</p>
+</li>
+</ul>
 <h2>4.2.1</h2>
 <h3>Patch Changes</h3>
 <ul>
@@ -82,10 +95,10 @@ saepe ex autem eveniet illum magni sed distinctio omnis, placeat voluptatem enim
 `,"");document.querySelector("#app").innerHTML=`
   <div>
     <a href="https://bun.sh" target="_blank">
-      <img src="${h}" class="logo bun" alt="Vite logo" />
+      <img src="${i}" class="logo bun" alt="Vite logo" />
     </a>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="${i}" class="logo" alt="Vite logo" />
+      <img src="${h}" class="logo" alt="Vite logo" />
     </a>
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${o}" class="logo vanilla" alt="TypeScript logo" />
