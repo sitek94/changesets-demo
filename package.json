@@ -6,8 +6,9 @@
   "type": "module",
   "author": "Maciek Sitkowski",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "changelog-to-html": "marked -i CHANGELOG.md -o CHANGELOG.html",
+    "dev": "bun run changelog-to-html && vite",
+    "build": "tsc && bun run changelog-to-html && vite build",
     "preview": "vite preview",
     "changeset": "changeset",
     "version": "changeset version",
@@ -23,5 +24,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "marked": "^12.0.0"
   }
 }

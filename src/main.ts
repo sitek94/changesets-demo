@@ -3,8 +3,10 @@ import typescriptLogo from '/typescript.svg'
 import viteLogo from '/vite.svg'
 import bunLogo from '/bun.svg'
 import changesetsLogo from '/changesets.svg'
-
 import pkg from '../package.json'
+import changelogRaw from '../CHANGELOG.html?raw'
+
+const changelog = changelogRaw.replace('<h1>changesets-demo</h1>\n', '')
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -21,7 +23,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="${changesetsLogo}" class="logo vanilla" alt="Changesets logo" />
     </a>
     <h2>Bun + Vite + TypeScript + Changesets</h2>
+    <hr />
     <h1>changesets-demo@${pkg.version}</h1>
-    <p></p>
+    <article class="changelog">
+      ${changelog}
+    </article>
   </div>
 `
