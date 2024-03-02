@@ -1,5 +1,13 @@
 # changesets-demo
 
+## 4.2.2
+
+### Patch Changes
+
+- add dummy file for playing around with changesets ([`1804babf2900b3f98c4ccb556f164449608bd673`](https://github.com/sitek94/changesets-demo/commit/1804babf2900b3f98c4ccb556f164449608bd673))
+
+- include new version in release pr title and commit message ([`7c0553281bfe58bfd8d21d38e8305821f2486c97`](https://github.com/sitek94/changesets-demo/commit/7c0553281bfe58bfd8d21d38e8305821f2486c97))
+
 ## 4.2.1
 
 ### Patch Changes
