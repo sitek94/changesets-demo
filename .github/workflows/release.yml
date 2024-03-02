@@ -41,7 +41,7 @@ jobs:
         # 🔗 See: https://github.com/changesets/action/issues/303#issuecomment-1888167265
         run: |
           NEW_VERSION=$(bun changeset status --output=release.json && jq -r '.releases[0].newVersion' release.json)
-          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_OUTPUT
 
       - name: Create Release Pull Request
         uses: changesets/action@v1
