@@ -42,6 +42,7 @@ jobs:
         run: |
           NEW_VERSION=$(bun changeset status --output=release.json && jq -r '.releases[0].newVersion' release.json)
           echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_OUTPUT
+          rm release.json
 
       - name: Create Release Pull Request
         uses: changesets/action@v1
