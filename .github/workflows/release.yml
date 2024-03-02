@@ -40,9 +40,7 @@ jobs:
         # we can use `changeset status` command to get the new version and then use it in the next steps.
         # 🔗 See: https://github.com/changesets/action/issues/303#issuecomment-1888167265
         run: |
-          NEW_VERSION=$(bun changeset status --output=release.json && jq -r '.releases[0].newVersion' release.json)
-          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_OUTPUT
-          rm release.json
+          echo "NEW_VERSION=$(bun changeset status --output=release.json && jq -r '.releases[0].newVersion' release.json && rm release.json)" >> $GITHUB_OUTPUT
 
       - name: Create Release Pull Request
         uses: changesets/action@v1
