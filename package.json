@@ -1,6 +1,6 @@
 {
   "name": "changesets-demo",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "module": "index.ts",
   "private": true,
   "type": "module",

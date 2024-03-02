@@ -1,5 +1,11 @@
 # changesets-demo
 
+## 4.2.3
+
+### Patch Changes
+
+- remove temp release.json file ([`9f550880b6ab46b058fa7d17d2c3c075c1d2f2cb`](https://github.com/sitek94/changesets-demo/commit/9f550880b6ab46b058fa7d17d2c3c075c1d2f2cb))
+
 ## 4.2.2
 
 ### Patch Changes
